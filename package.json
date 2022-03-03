@@ -6,9 +6,10 @@
   "license": "MIT",
   "scripts": {
     "test": "jest --passWithNoTests",
+    "test:ci": "yarn test -- --coverage",
     "test:watch": "yarn test -- --watch",
     "test:staged": "yarn test -- --findRelatedTests",
-    "test:ci": "yarn test -- --coverage"
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@types/jest": "^27.4.1",
