@@ -9,6 +9,7 @@
     "test:ci": "yarn test -- --coverage",
     "test:watch": "yarn test -- --watch",
     "test:staged": "yarn test -- --findRelatedTests",
+    "test:clear": "yarn jest --clearCache",
     "prepare": "husky install"
   },
   "devDependencies": {
