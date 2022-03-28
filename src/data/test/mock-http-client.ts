@@ -1,5 +1,5 @@
 import { HttpPostClient, HttpPostParams } from '../protocols/http/http-post-client'
-import { HttpResponse, HttpStatusCode } from '../protocols/http/htto-response'
+import { HttpResponse, HttpStatusCode } from '../protocols/http/http-response'
 
 export class HttpPostClientSpy implements HttpPostClient {
   url?: string
