@@ -10,7 +10,7 @@
     "test:watch": "yarn test -- --watch",
     "test:staged": "yarn test -- --findRelatedTests",
     "test:clear": "yarn jest --clearCache",
-    "prepare": "husky install"
+    "prepare": "husky install && chmod ug+x .husky/* && chmod ug+x .git/hooks/*"
   },
   "dependencies": {
     "axios": "^0.26.1"
